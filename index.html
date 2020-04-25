@@ -3,58 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- подключить шрифты -->
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>HomeWork_module_04</title>
 </head>
 <body>
     <div class="container__content">
         <header class="header">
-            <h1 class="logo">
-                <span class="logo_letter">M</span>art
-            </h1>
-            <nav class="nav_header">
-                <ul>
-                    <li>
-                        <p class="nav__p">home</p>
-                    </li>
-                    <li>
-                        <p class="nav__p">about us</p>
-                    </li>
-                    <li>
-                        <p class="nav__p">page</p>
-                    </li>
-                    <li>
-                        <p class="nav__p">shop</p>
-                    </li>
-                    <li>
-                        <p class="nav__p">blog</p>
-                    </li>
-                    <li>
-                        <p class="nav__p">contact us</p>
-                    </li>
-                </ul>
-            </nav>
+            <div class="header_container">
+                <a href="#" class="site__logo">
+                    <h1 class="logo">Mart</h1>
+                </a>
+                <nav class="nav__header">
+                    <ul class="nav__ul clearfix">
+                        <li>
+                            <a href="#" class="nav__a">home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__a">about us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__a">page</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__a">shop</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__a">blog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav__a">contact us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
-        <main>
-            <h2>featured products</h2>
-            <div class="first__container">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <h2>latest news</h2>
-            <div class="second__container">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
+        <main class="main__container clearfix">
+            <h2 class="first__title">featured products</h2>
+            <ul class="first__container__card clearfix">
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__card" src="./img/product1_1.png" alt="woman shoes" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Blue Tshirt</a>
+                        </h3>
+                        <p class="price__card">26</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product2_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Woman Shirt</a>
+                        </h3>
+                        <p class="price__card">31</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product3_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Yellow Tshirt</a>
+                        </h3>
+                        <p class="price__card">21</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product4_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Cool Lingerie</a>
+                        </h3>
+                        <p class="price__card">56</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product5_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Blue Tshirt</a>
+                        </h3>
+                        <p class="price__card">26</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product6_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Woman Shirt</a>
+                        </h3>
+                        <p class="price__card">31</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product7_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Yellow Tshirt</a>
+                        </h3>
+                        <p class="price__card">21</p>
+                    </div>
+                </li>
+                <li class="things__card">
+                    <a href="#" class="things__card__link">
+                        <img class="image__cerd" src="./img/product8_1.png" alt="" width="255px" height="282px">
+                    </a>
+                    <div class="bottom__card">
+                        <h3 class="bottom__card__item">
+                            <a class="bottom__card__item_link" href="#">Cool Lingerie</a>
+                        </h3>
+                        <p class="price__card">56</p>
+                    </div>
+                </li>
+            </ul>
+            <h2 class="second__title">latest news</h2>
+            <ul class="second__container__news clearfix">
+                <li class="news__card">
+                    <img class="image__news__card" src="./img/latest_news_1.png" alt="woman shoes" width="350px" height="262px">
+                    <div class="footer__news__card">
+                        <h3 class="footer__news__card__title">Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean</h3>
+                        <p class="footer__news__card__text">Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare</p>
+                    </div>
+                </li>
+            </ul>
         </main>
     </div>
 </body>

@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* color: #555252;
+    font-size: 18px;
+    line-height: 27px; */
+
+}
+
+.container__content {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* LOGO */
+.site__logo {
+    display: inline-block;
+}
+
+h1 {
+    float: left;
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    /* margin-right: 565px; */
+    text-transform: uppercase;
+    color: #555252;
+}
+
+h1::first-letter {
+    color: #1abc9c;
+}
+
+/* Navigation */
+
+.header_container {
+    height: 96px;
+    padding-top: 38px;
+}
+
+.nav__header {
+    display: inline-block;
+    float: right;
+}
+
+.nav__ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav__ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.nav__a {
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+    color: #0f0101;
+}
+
+.nav__a:hover {
+    color: #1abc9c;
+
+}
+
+
+
+
+
+/* Main центральный контент */
+/* Первый блок */
+
+.first__title {
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    padding: 83px 0 93px 0;
+    color: rgb(85, 82, 82);
+
+}
+
+.first__title::after, .second__title::after {
+    display: block;
+    content: ' ';
+    background-color: #1abc9c;
+    width: 164px;
+    height: 7px;
+    margin: 0px auto;
+    margin-top: 32px;
+}
+
+.first__container__card {
+    list-style: none;
+    /* margin: 0;
+    padding: 0;
+    font-size: 0; */
+}
+
+
+
+/* Карточки */
+
+.things__card {
+    float: left;
+    max-width: 255px;
+    height: 322px;
+    background-color: #e9f0fd;
+    margin: 0 30px 30px 0;
+}
+
+.things__card:nth-of-type(4n) {
+    margin: 0 0 30px 0;
+}
+
+.things__card__link {
+    display: inline-block;    
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom__card {
+    background-color: #323232;
+}
+
+
+
+.bottom__card__item, .price__card {
+    display: inline-block;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.price__card::before {
+    content: '\0024';
+}
+
+.bottom__card__item {
+    width: 201px;
+    padding-left: 14px;
+}
+
+.things__card:hover .bottom__card__item {
+    background-color: rgb(26, 188, 156);
+}
+
+.things__card:hover .price__card {
+    background-color: rgb(127, 217, 199);
+}
+
+.bottom__card__item_link {
+    display: inline-block;
+    text-decoration: none;;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 100%;
+}
+
+.price__card {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.44);
+    width: 54px;
+    height: 36px;
+    text-align: center;
+}
+
+  
+
+
+
+
+/* Второй блок */
+.second__title {
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    color: rgb(85, 82, 82);
+}
+
+    
+  
