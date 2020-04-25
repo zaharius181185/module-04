@@ -55,7 +55,6 @@ h1::first-letter {
 }
 
 /* Navigation */
-
 .header_container {
     height: 96px;
     padding-top: 38px;
@@ -86,16 +85,10 @@ h1::first-letter {
 
 .nav__a:hover {
     color: #1abc9c;
-
 }
-
-
-
-
 
 /* Main центральный контент */
 /* Первый блок */
-
 .first__title {
     text-transform: uppercase;
     font-size: 32px;
@@ -103,7 +96,6 @@ h1::first-letter {
     text-align: center;
     padding: 83px 0 93px 0;
     color: rgb(85, 82, 82);
-
 }
 
 .first__title::after, .second__title::after {
@@ -118,15 +110,9 @@ h1::first-letter {
 
 .first__container__card {
     list-style: none;
-    /* margin: 0;
-    padding: 0;
-    font-size: 0; */
 }
 
-
-
 /* Карточки */
-
 .things__card {
     float: left;
     max-width: 255px;
@@ -148,8 +134,6 @@ h1::first-letter {
 .bottom__card {
     background-color: #323232;
 }
-
-
 
 .bottom__card__item, .price__card {
     display: inline-block;
@@ -190,11 +174,6 @@ h1::first-letter {
     text-align: center;
 }
 
-  
-
-
-
-
 /* Второй блок */
 .second__title {
     text-transform: uppercase;
@@ -206,5 +185,59 @@ h1::first-letter {
     color: rgb(85, 82, 82);
 }
 
+.second__container__news {
+    font-family: 'OpenSans', sans-serif;
+}
+
+.news__card {
+    display: inline-block;
+    width: 350px;
+    height: 497px;
+    margin-right: 30px;
+    float: left;
+
+}
+
+.news__card:nth-child(3) {
+    margin-right: 0;
+}
+
+.image__news__card {
+    margin-bottom: 14px;
+}
+
+.footer__news__card__title {
+    font-size: 18px;
+    color: rgb(85, 82, 82);
+    margin-bottom: 26px;
+}
+
+.footer__news__card__title::after {
+    display: block;
+    content: ' ';
+    background-color: #1abc9c;
+    width: 136px;
+    height: 3px;
+    margin-top: 11px;
+}
+
+.footer__news__card__text {
+    font-size: 14px;
+    color: rgb(85, 82, 82);
+    margin-bottom: 13px;
     
-  
+}
+
+.news__card__link__buttom {
+    display: inline-block;
+    text-decoration: none;
+    /* border: 2px solid #000000; */
+    border-radius: 3px;
+    height: 51px;
+    width: 159px;
+    background-color: rgb(78, 198, 171);
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    padding-top: 18px;
+}
