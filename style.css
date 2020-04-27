@@ -12,10 +12,6 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* color: #555252;
-    font-size: 18px;
-    line-height: 27px; */
-
 }
 
 .container__content {
@@ -36,21 +32,21 @@ img {
 }
 
 /* LOGO */
-.site__logo {
-    display: inline-block;
-}
-
 h1 {
     float: left;
     font-size: 30px;
     font-weight: 300;
     display: inline-block;
-    /* margin-right: 565px; */
     text-transform: uppercase;
+}
+
+.site__logo {
+    display: inline-block;
+    text-decoration: none;
     color: #555252;
 }
 
-h1::first-letter {
+.site__logo::first-letter {
     color: #1abc9c;
 }
 
@@ -76,8 +72,8 @@ h1::first-letter {
 
 .nav__a {
     text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 21px;
     text-decoration: none;
     color: #0f0101;
@@ -116,7 +112,6 @@ h1::first-letter {
 .things__card {
     float: left;
     max-width: 255px;
-    height: 322px;
     background-color: #e9f0fd;
     margin: 0 30px 30px 0;
 }
@@ -139,6 +134,8 @@ h1::first-letter {
     display: inline-block;
     font-size: 18px;
     line-height: 36px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
 }
 
 .price__card::before {
@@ -192,10 +189,8 @@ h1::first-letter {
 .news__card {
     display: inline-block;
     width: 350px;
-    height: 497px;
     margin-right: 30px;
     float: left;
-
 }
 
 .news__card:nth-child(3) {
